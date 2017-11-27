@@ -1,0 +1,30 @@
+/* video */
+video {
+	max-width: 100%;
+}
+
+.showreel-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.showreel-wrapper {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	.showreel-wrapper {
+		 height: 300%;
+     top: -100%;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	.showreel-wrapper {
+		width: 300%;
+    left: -100%;
+	}
+}

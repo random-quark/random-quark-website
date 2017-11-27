@@ -1,0 +1,152 @@
+/* global */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+section {
+  text-align: center;
+}
+
+section.clients {
+  display: flex;
+  background: #d3d3d3;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+@media screen and (max-device-width: 843px) {
+  section.clients {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  section.clients img {
+    object-fit: contain;
+  }
+}
+
+section.clients .client-logo {
+  height: 110px;
+}
+
+section.press {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%; /* The height of the item will now be 56% of the width. */
+}
+
+/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+section ul {
+  max-width: 843px;
+}
+
+section p.caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.side-image-left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+section ul,
+section ol {
+  width: 60%;
+  margin: 30px auto 30px auto;
+  text-align: left;
+}
+
+section.blog p {
+  text-align: center;
+}
+
+.mobile-only img {
+  width: 100%;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
+
+@media screen and (max-device-width: 843px) {
+  section ul {
+    font-size: 18px;
+    width: 85%;
+  }
+}
+
+/* redo */
+
+section.content {
+  margin: auto;
+  width: 60%;
+  max-width: 843px;
+}
+
+@media screen and (max-device-width: 843px) {
+  section.content {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+.company {
+  display: flex;
+  justify-content: space-around;
+}
+.company .detail {
+  width: 60%;
+}
+.company .quote {
+  color: #5b5b5b;
+  font-style: italic;
+}
+.company .name {
+  color: #404040;
+}
+
+@media screen and (max-device-width: 843px) {
+  .company {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .company .company-logo {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .company .detail {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+p {
+  margin: 30px auto 30px auto;
+  text-align: justify;
+}
+
+.bordered {
+  border: 1px solid #ddd;
+}
