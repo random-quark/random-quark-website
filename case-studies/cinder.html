@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>random quark - creative technology studio</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Open+Sans' rel='stylesheet'>
+	<link rel="stylesheet" href="/styles/layout.css">
+	<link rel="stylesheet" href="/styles/video.css">
+	<link rel="stylesheet" href="/styles/work.css">
+	<link rel="stylesheet" href="/styles/people.css">
+	<link rel="stylesheet" href="/styles/utilities.css">
+	<link rel="stylesheet" href="/styles/typography.css">
+	<link rel="stylesheet" href="/styles/mobile.css">
+	<link rel="stylesheet" href="/styles/header.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+</head>
+<body>
+
+	<div class="container not-mobile content-pages">
+		<header class="not-mobile">
+			<div class="logo">
+				<a href="/">random quark</a>
+			</div>
+			<nav>
+				<ul>
+					<a href="/#about"><li>what we do</li></a>
+					<a href="/#work"><li>recent projects</li></a>
+					<a href="/#people"><li>who we are</li></a>
+					<a href="/#contact"><li>contact</li></a>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+	<header class="mobile-only">
+		<a href="/"><img src="/images/logo.png" class="logo-mobile"></a>
+	</header>
+	<div class="cf"></div>
+
+	<section class="content">
+	<h2>Cinder</h2>
+
+	<p>
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/T-TMrPsKdo0" frameborder="0" allowfullscreen></iframe>
+	</p>
+
+	<h3>Description</h3>
+	<p>Umbrellium comissioned us to build one of the technical components of their innovative virtual cat that lives in a school in Cambridge. The cat is featured on a large augmented reality screen in the lobby which could be interacted with during breaks as well as on students' chromebooks throughout the day. The cat's mood and behaviour is influenced by data collected from the building.</p>
+
+	<p>
+		<img src="/images/case-studies/cinder/1.png" width="768">
+	</p>
+
+	<h3>Concept</h3>
+	<p>When nobody is near the cat, it wanders about the room resting, walking and running around in a natural way. When people approach it the cat becomes more playful and may play with the nearby person or run away depending on its mood. The cat can also receive instructions to go through portals to other parts of the building, for example a student's chromebook.</p>
+
+	<p>
+		<img src="/images/case-studies/cinder/2.jpg" width="768">
+	</p>
+
+	<h3>Technology</h3>
+	<p>We worked closely with the team at Umbrellium to create a precise specification and write clean, maintainable code with documentation to be integrated with the ongoing development.</p>
+
+	<p>Our role was to design and build the realistic simulation of the behaviour and movement of the cat making use of a series of 2D animations. We built this system from the ground up using C++ and openFrameworks. Under the hood it uses a behaviour tree to make intelligent decisions about where to move to, how to get from place to place and what to do next.</p>
+
+	<p>
+		<img src="/images/case-studies/cinder/6.png" width="768">
+	</p>
+
+	<p>Read more about this project on <a href="http://umbrellium.co.uk/initiatives/cinder/" target="_blank">Umbrellium's site</a>.</p>
+
+	<h3>Press</h3>
+	<ul>
+		<li><a href="http://www.bbc.co.uk/news/uk-england-cambridgeshire-37561326" target="_blank">BBC</a></li>
+		<li><a href="http://www.cambridge-news.co.uk/meet-cinder-the-virtual-cat-which-has-taken-trumpington-community-college-by-storm/story-29782236-detail/story.html" target="_blank">Cambridge News</a></li>
+	</ul>
+</section>
+
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="/js/jquery.visible.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.0.0/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="/js/masonry.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script src="/js/main.js"></script>
+	<script src="/js/people.js"></script>
+	<script src="/js/slideshows.js"></script>
+	<!-- <script src="/js/particles.js"></script>
+	<script src="/js/particles-start.js"></script> -->
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-61942640-2', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+	<!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+	window.__insp = window.__insp || [];
+	__insp.push(['wid', 1708114178]);
+	(function() {
+	function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+	setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+	})();
+	</script>
+	<!-- End Inspectlet Embed Code -->
+</body>
+</html>
