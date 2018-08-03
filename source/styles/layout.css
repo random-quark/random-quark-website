@@ -10,32 +10,16 @@ section {
   text-align: center;
 }
 
-section.clients {
-  display: flex;
-  background: #d3d3d3;
-  justify-content: space-between;
-  padding: 40px 100px;
+.social img {
+  margin: 50px;
+  width: 25px;
+  height: 25px;
 }
 
-@media screen and (max-device-width: 843px) {
-  section.clients {
-    flex-direction: column;
-    padding: 40px 20px;
-  }
-  section.clients img {
-    object-fit: contain;
-  }
-}
-
-section.clients .client-logo {
-  height: 110px;
-}
-
-section.press {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: space-around;
+.social img {
+  margin: 50px;
+  width: 25px;
+  height: 25px;
 }
 
 .aspect-ratio {
