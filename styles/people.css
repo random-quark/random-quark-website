@@ -1,53 +1,63 @@
 /* us */
 .person-holder {
-	width: 50%;
-	float: left;
+  width: 50%;
+  float: left;
 }
 
-.person  {
-	width: 300px;
-	height: 300px;
-	border-radius: 9999px;
-	margin: auto;
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
-	-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+.person-holder.jesse {
+  width: 50%;
+  margin: auto;
+  float: none;
+}
+
+.person {
+  width: 300px;
+  height: 300px;
+  border-radius: 9999px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
 }
 
 .person-text {
-	width: 60%;
-	margin: auto;
+  width: 60%;
+  margin: auto;
 }
 
 @media screen and (max-device-width: 843px) {
-	.person-text {
-		width: 100%;
-	}
+  .person-text {
+    width: 100%;
+  }
 }
 
 .person-text.swapped {
-	display: none;
+  display: none;
 }
 
 .person video {
-	margin: 0 auto;
-	width: 300px;
+  margin: 0 auto;
+  width: 300px;
 }
 
-.person+h3 {
-	margin-top: 40px;
+.person + h3 {
+  margin-top: 40px;
 }
 
 @media (max-device-width: 843px) {
-	.person-holder {
-		width: 100%;
-	}
-	.person-holder:last-of-type {
-		margin-top: 50px;
-	}
-	.mobile-person {
-		width: 300px;
-		height: 300px;
-	}
+  .person-holder {
+    width: 100%;
+  }
+  .person-holder:last-of-type {
+    margin-top: 50px;
+  }
+  .person-holder.jesse {
+    width: 100%;
+  }
+
+  .mobile-person {
+    width: 300px;
+    height: 300px;
+  }
 }
