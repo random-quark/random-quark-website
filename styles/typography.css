@@ -1,94 +1,102 @@
 /* fonts */
-html, body {
-	font-family: 'Open Sans', serif;
-	margin-bottom: 100px;
+html,
+body {
+  font-family: "Open Sans", serif;
+  margin-bottom: 100px;
 }
 
-.primary-text, h1, h2, h3, nav, nav ul {
-
+.primary-text,
+h1,
+h2,
+h3,
+nav,
+nav ul {
 }
 
 p {
-	font-size: 16px;
+  font-size: 16px;
 }
 p.right {
-	justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 h1 {
-	margin: 0;
-	font-size: 24px;
-	clear: both;
+  margin: 0;
+  font-size: 24px;
+  clear: both;
 }
 
 h2 {
-	font-size: 24px;
-	display: table;
-	padding: 60px 10px 5px 10px;
-	margin: 0px auto 40px auto;
+  font-size: 24px;
+  display: table;
+  padding: 60px 10px 5px 10px;
+  margin: 0px auto 40px auto;
 }
 
 @media screen and (max-device-width: 843px) {
-	h2 {
-		padding-top: 0px;
-	}
+  h2 {
+    padding-top: 0px;
+  }
 }
 
 h2.no-gap {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 h3 {
-	margin-top: 60px;
+  margin-top: 60px;
 }
 
 h3.subtitle {
-	text-align: center;
-	margin-top: 0;
+  text-align: center;
+  margin-top: 0;
   color: #999;
 }
 
-.secondary-text, p, li {
-	font-family: 'Open Sans', sans-serif;
+.secondary-text,
+p,
+li {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 a:visited {
-	color: #888;
+  color: #888;
 }
 
 section ul {
-	padding: 0;
+  padding: 0;
 }
 
 section li {
-	list-style-position: inside;
+  list-style-position: inside;
 }
 
 section ol li {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-
 a {
-	color: #000;
+  color: #000;
 }
 
 .read-more {
-	text-align: center;
-	text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 @media (max-device-width: 843px) {
-	section p, p {
-		font-size: 18px;
-	}
+  section p,
+  p {
+    font-size: 18px;
+  }
 
-	h2 {
-		font-size: 22px;
-		margin: 60px auto 40px auto;
-		border: none;
-	}
-	h3 {
-		font-size: 20px;
-	}
+  h2 {
+    font-size: 22px;
+    margin: 60px auto 40px auto;
+    border: none;
+  }
+  h3 {
+    font-size: 20px;
+  }
 }
